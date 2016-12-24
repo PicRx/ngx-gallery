@@ -1,0 +1,10 @@
+<div class="gallery-wrapper">
+    <div class="action-bar"></div>
+    <div class="thumbnail-container">
+        <ng-content select="sks-thumbnail">
+        </ng-content>
+    </div>
+    <ng-content select="sks-error-toast" ng-if="showToast">
+    </ng-content>
+    <ng-content select="sks-lightbox"></ng-content>
+</div>
